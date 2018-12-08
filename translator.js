@@ -18,10 +18,13 @@ const roman = {
 
 // function romanCalc(number) {
 
-let result = 0;
-let str = '';
+
 
 function translator(number) {
+
+  let result = 0;
+  let str = '';
+
   Object.entries(roman).reverse().reduce(function(p, c, index, a) {
     let result = Math.floor(p / c[0]);
     if (result > 0) {
@@ -33,7 +36,12 @@ function translator(number) {
   return str;
 }
 
-console.log(translator(1800));
+console.log(translator(1994));
+
+
+module.exports = {
+  translator
+};
 
 
 

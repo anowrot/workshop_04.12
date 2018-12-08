@@ -1,0 +1,22 @@
+{
+  "name": "workshop_04.12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "translator.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anowrot/workshop_04.12.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anowrot/workshop_04.12/issues"
+  },
+  "homepage": "https://github.com/anowrot/workshop_04.12#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
